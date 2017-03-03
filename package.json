@@ -1,0 +1,28 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This will be my local server.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalgaurav18/nodeserver.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Kunal Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunalgaurav18/nodeserver/issues"
+  },
+  "homepage": "https://github.com/kunalgaurav18/nodeserver#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
